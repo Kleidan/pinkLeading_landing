@@ -1,0 +1,99 @@
+:root {
+  --bg-clr: #cc1f78;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+  height: 100%;
+  color: white;
+  word-wrap: break-word;
+}
+
+html {
+  background-image: url(../assets/bg-pink.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60%;
+  width: 100%;
+}
+
+/* Layout */
+
+body {
+  padding-block: min(10rem, 10%);
+  padding-inline: 15%;
+}
+
+main {
+  background-color: hsla(0, 0%, 18%, 0.9);
+  width: min(568px, 100%);
+  padding-block: min(4.6rem, 5%);
+  padding-inline: 2rem;
+}
+
+.window {
+  /* width: min(417px, 100%); */
+  margin: auto;
+  /* padding-bottom: 5rem; */
+}
+
+h1,
+p {
+  padding-bottom: 1rem;
+}
+
+input {
+  width: min(250px, 100%);
+}
+
+/* typography */
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+.fname {
+  padding-bottom: 1rem;
+}
+
+.mail {
+  padding-bottom: 2rem;
+}
+
+button {
+  font-weight: bold;
+  font-size: 1.375rem;
+  margin-bottom: 2rem;
+}
+
+/* cosmetic */
+
+input {
+  border-radius: none;
+  border: 1px solid #cc1f78;
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
+
+button {
+  background-color: #cc1f78;
+  color: white;
+  padding: 9px 40px;
+  border: none;
+}
